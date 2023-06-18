@@ -1,0 +1,35 @@
+.form {
+    padding: 20px 10px;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 40px;
+    align-items: center;
+    border-radius: 0px;
+    background: linear-gradient(145deg, #655656, #554848);
+    box-shadow: 13px 13px 39px #473c3c,
+        -13px -13px 39px #766464;
+}
+
+.form input {
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.form button {
+    width: 90%;
+    margin: 0 auto;
+    height: 40px;
+    transition: 100ms;
+    border: none;
+    background: black;
+    color: yellow;
+    text-shadow: 0 0 20px white;
+}
+
+.form button:hover {
+    transform: scale(1.1);
+}
